@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-10 18:16+0000\n"
-"PO-Revision-Date: 2023-08-10 15:26-0300\n"
+"POT-Creation-Date: 2023-08-30 11:40+0000\n"
+"PO-Revision-Date: 2023-08-30 09:19-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -55,7 +55,7 @@ msgstr ""
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 msgid ": Partner Ledger"
-msgstr ""
+msgstr ": Razão do Parceiro"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
@@ -65,7 +65,7 @@ msgstr ":Balancete"
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.cash_flow
 msgid "<b>Report Date :</b>"
-msgstr ""
+msgstr "<b>Data Relatório :</b>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ageing
@@ -84,51 +84,51 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 msgid "<strong> From:</strong>"
-msgstr ""
+msgstr "<strong> De:</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.day_book
 msgid "<strong> To:</strong>"
-msgstr ""
+msgstr "<strong> Para:</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid "<strong>Account Tags:</strong>"
-msgstr ""
+msgstr "<strong>Marcadores Conta:</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ageing
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 msgid "<strong>Account Type:</strong>"
-msgstr ""
+msgstr "<strong>Tipo Conta:</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.day_book
 msgid "<strong>Accounts :</strong>"
-msgstr ""
+msgstr "<strong>Contas :</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.general_ledger
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 msgid "<strong>Accounts:</strong>"
-msgstr ""
+msgstr "<strong>Contas :</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.general_ledger
 msgid "<strong>Analytic:</strong>"
-msgstr ""
+msgstr "<strong>Analíticas:</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.cash_flow
 msgid "<strong>Date from :</strong>"
-msgstr ""
+msgstr "<strong>Data Inicial :</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.cash_flow
 msgid "<strong>Date to :</strong>"
-msgstr ""
+msgstr "<strong>Data Final :</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -137,32 +137,32 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 msgid "<strong>Journals:</strong>"
-msgstr ""
+msgstr "<strong>Diários:</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.cash_flow
 msgid "<strong>Level :</strong>"
-msgstr ""
+msgstr "<strong>Nível :</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ageing
 msgid "<strong>Partner Tag :</strong>"
-msgstr ""
+msgstr "<strong>Marcador Parceiro :</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 msgid "<strong>Partner Tags:</strong>"
-msgstr ""
+msgstr "<strong>Marcadores Parceiros :</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ageing
 msgid "<strong>Partners :</strong>"
-msgstr ""
+msgstr "<strong>Parceiros :</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 msgid "<strong>Partners:</strong>"
-msgstr ""
+msgstr "<strong>Parceiros :</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -173,7 +173,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 msgid "<strong>Target move:</strong>"
-msgstr ""
+msgstr "<strong>Movimento alvo:</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -181,12 +181,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 msgid "<strong>To:</strong>"
-msgstr ""
+msgstr "<strong>Para:</strong>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 msgid "<strong>Total</strong>"
-msgstr ""
+msgstr "<strong>Total</strong>"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -209,35 +209,36 @@ msgstr "Conta"
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__filter_hierarchy
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_hierarchy
 msgid "Account Groups"
-msgstr ""
+msgstr "Grupo de Contas"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_general_ledger__account_tag_ids
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__account_tag_ids
 msgid "Account Tags"
-msgstr ""
+msgstr "Marcadores da Conta"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/financial_reports_view.xml:0
+#: code:addons/dynamic_accounts_report/static/src/xml/general_ledger_view.xml:0
 #, python-format
 msgid "Account Tags:"
-msgstr ""
+msgstr "Marcadores da Conta:"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
-#: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__account_type_id
+#: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__account_type
 #, python-format
 msgid "Account Type"
-msgstr ""
+msgstr "Tipo de Conta"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/ageing.xml:0
 #, python-format
 msgid "Account Type:"
-msgstr ""
+msgstr "Tipo de Conta:"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__filter_account_type
@@ -246,7 +247,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__filter_account_type
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_account_type
 msgid "Account Types"
-msgstr ""
+msgstr "Tipos de Conta"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__account_ids
@@ -255,7 +256,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__account_ids
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__account_ids
 msgid "Accounts"
-msgstr ""
+msgstr "Contas"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -265,12 +266,13 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "Accounts:"
-msgstr ""
+msgstr "Contas:"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_general_ledger__display_account__all
+#: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ledger__account_type__all
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ledger__display_account__all
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ledger__reconciled__all
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_trial_balance__display_account__all
@@ -278,7 +280,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__dynamic_balance_sheet_report__target_move__all
 #, python-format
 msgid "All"
-msgstr ""
+msgstr "Tudo"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -293,19 +295,27 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_general_ledger__target_move__all
 #, python-format
 msgid "All Entries"
-msgstr ""
+msgstr "Todas as Entradas"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_day_book__target_move__posted
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_general_ledger__target_move__posted
 msgid "All Posted Entries"
-msgstr ""
+msgstr "Todas as Entradas Lançadas"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_general_ledger__analytic_ids
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__analytic_ids
 msgid "Analytic Accounts"
-msgstr ""
+msgstr "Contas Analíticas"
+
+#. module: dynamic_accounts_report
+#. odoo-javascript
+#: code:addons/dynamic_accounts_report/static/src/xml/financial_reports_view.xml:0
+#: code:addons/dynamic_accounts_report/static/src/xml/general_ledger_view.xml:0
+#, python-format
+msgid "Analytic Accounts:"
+msgstr "Contas Analíticas:"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__filter_analytic
@@ -314,7 +324,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__filter_analytic
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_analytic
 msgid "Analytic Filter"
-msgstr ""
+msgstr "Filtro Analítico"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -327,21 +337,21 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/ageing.xml:0
 #, python-format
 msgid "As on Date"
-msgstr ""
+msgstr "Como na Data"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/ageing.xml:0
 #, python-format
 msgid "As on Date :"
-msgstr ""
+msgstr "Como na Data:"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__availability_condition
@@ -350,7 +360,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__availability_condition
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__availability_condition
 msgid "Availability"
-msgstr ""
+msgstr "Disponibilidade"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -366,19 +376,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #, python-format
 msgid "Balance"
-msgstr ""
+msgstr "Saldo"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_dynamic_balance_sheet
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_balance_sheet_report
 msgid "Balance Sheet"
-msgstr ""
+msgstr "Balanço patrimonial"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_bank_book
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_bank_book
 msgid "Bank Book"
-msgstr ""
+msgstr "Livro Bancário"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -391,31 +401,31 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Calendar"
-msgstr ""
+msgstr "Calendário"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_cash_book
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_cash_book
 msgid "Cash Book"
-msgstr ""
+msgstr "Livro Caixa"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/cash_flow_view.xml:0
 #, python-format
 msgid "Cash Flow Statement"
-msgstr ""
+msgstr "Demonstrativo do Fluxo de Caixa"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_cash_flow
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_cash_flow
 msgid "Cash Flow Statements"
-msgstr ""
+msgstr "Demonstrativo do Fluxo de Caixa"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.cash_flow
 msgid "Cash Flow statements"
-msgstr ""
+msgstr "Demonstrativo do Fluxo de Caixa"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -423,7 +433,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.cash_flow
 #, python-format
 msgid "Cash In"
-msgstr ""
+msgstr "Entrada Caixa"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -431,7 +441,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.cash_flow
 #, python-format
 msgid "Cash Out"
-msgstr ""
+msgstr "Saida Caixa"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__chart_template_id
@@ -440,12 +450,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__chart_template_id
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__chart_template_id
 msgid "Chart of Accounts"
-msgstr ""
+msgstr "Plano de Contas"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 msgid "Code"
-msgstr ""
+msgstr "Codigo"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__column_ids
@@ -454,7 +464,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__column_ids
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__column_ids
 msgid "Columns"
-msgstr ""
+msgstr "Colunas"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__company_id
@@ -465,7 +475,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__company_id
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__company_id
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -473,7 +483,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_cash_flow__levels__consolidated
 #, python-format
 msgid "Consolidated"
-msgstr ""
+msgstr "Consolidado"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__country_id
@@ -482,7 +492,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__country_id
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__country_id
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__create_uid
@@ -493,7 +503,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__create_uid
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Criado por"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__create_date
@@ -504,7 +514,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__create_date
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Criado em"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -520,14 +530,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 #, python-format
 msgid "Credit"
-msgstr ""
+msgstr "Crédito"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.day_book
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.general_ledger
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ageing
 msgid "Currency"
-msgstr ""
+msgstr "Moéda"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -539,7 +549,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #, python-format
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -556,7 +566,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_date_range
 #, python-format
 msgid "Date Range"
-msgstr ""
+msgstr "Período"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -569,7 +579,7 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Dates"
-msgstr ""
+msgstr "Datas"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -579,7 +589,7 @@ msgstr ""
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_report_daybook
 #, python-format
 msgid "Day Book"
-msgstr ""
+msgstr "Livro do dia"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -595,7 +605,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 #, python-format
 msgid "Debit"
-msgstr ""
+msgstr "Débito"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__default_opening_date_filter
@@ -604,7 +614,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__default_opening_date_filter
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__default_opening_date_filter
 msgid "Default Opening"
-msgstr ""
+msgstr "Abertura Padrão"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -612,7 +622,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_cash_flow__levels__detailed
 #, python-format
 msgid "Detailed"
-msgstr ""
+msgstr "Detalhado"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,help:dynamic_accounts_report.field_account_cash_flow__levels
@@ -623,6 +633,9 @@ msgid ""
 "Detailed: Based on accounts.\n"
 "Very Detailed: Accounts with their move lines"
 msgstr ""
+"Diferentes níveis para demonstrações de fluxo de caixa\n"
+"Resumo: Relatório mensal.\n"
+"Consolidado: com base nos tipos de conta."
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_general_ledger__display_account
@@ -630,7 +643,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__display_account
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__display_account
 msgid "Display Accounts"
-msgstr ""
+msgstr "Exibir Contas"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__display_name
@@ -641,7 +654,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__display_name
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Exibir Nome"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__filter_show_draft
@@ -650,24 +663,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__filter_show_draft
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_show_draft
 msgid "Draft Entries"
-msgstr ""
+msgstr "Rascunhos de Entradas"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ageing
 msgid "Due date"
-msgstr ""
+msgstr "Data de Vencimento"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/ageing.xml:0
 #, python-format
 msgid "DueDate"
-msgstr ""
+msgstr "Data de Vencimento"
 
 #. module: dynamic_accounts_report
 #: model:ir.ui.menu,name:dynamic_accounts_report.dynamic_report_accounting
 msgid "Dynamic Financial Reports"
-msgstr ""
+msgstr "Relatórios Financeiros Dinâmicos"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__date_to
@@ -677,7 +690,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__date_to
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__date_to
 msgid "End Date"
-msgstr ""
+msgstr "Data Final"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -689,12 +702,12 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "End Date :"
-msgstr ""
+msgstr "Data Final :"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__date_to
 msgid "End date"
-msgstr ""
+msgstr "Data final"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -708,7 +721,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #, python-format
 msgid "Entry Label"
-msgstr ""
+msgstr "Etiqueta de Entrada"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -721,7 +734,7 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Export (XLSX)"
-msgstr ""
+msgstr "Exportar (XLSX)"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__filter_fiscal_position
@@ -735,13 +748,13 @@ msgstr ""
 #. module: dynamic_accounts_report
 #: model:ir.actions.report,name:dynamic_accounts_report.action_print_balance_sheet
 msgid "Financial Report"
-msgstr ""
+msgstr "Relatório Financeiro"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_general_ledger
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_general_ledger
 msgid "General Ledger"
-msgstr ""
+msgstr "Contabilidade Geral"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__filter_growth_comparison
@@ -750,7 +763,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__filter_growth_comparison
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_growth_comparison
 msgid "Growth Comparison"
-msgstr ""
+msgstr "Comparação de Crescimento"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__id
@@ -769,7 +782,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 #, python-format
 msgid "Initial Credit"
-msgstr ""
+msgstr "Crédito Inicial"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -777,7 +790,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance1
 #, python-format
 msgid "Initial Debit"
-msgstr ""
+msgstr "Débito Inicial"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -795,7 +808,7 @@ msgstr ""
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 msgid "Journal"
-msgstr ""
+msgstr "Diário"
 
 #. module: dynamic_accounts_report
 #: model:ir.model,name:dynamic_accounts_report.model_account_move_line
@@ -816,7 +829,7 @@ msgstr "Item de Diário"
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__journal_ids
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__journal_ids
 msgid "Journals"
-msgstr ""
+msgstr "Diários"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -827,7 +840,7 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Journals:"
-msgstr ""
+msgstr "Diários:"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow____last_update
@@ -867,12 +880,12 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/cash_flow_view.xml:0
 #, python-format
 msgid "Level:"
-msgstr ""
+msgstr "Nível:"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__levels
 msgid "Levels"
-msgstr ""
+msgstr "Níveis"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__line_ids
@@ -881,7 +894,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__line_ids
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__line_ids
 msgid "Lines"
-msgstr ""
+msgstr "Linhas"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__load_more_limit
@@ -890,7 +903,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__load_more_limit
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__load_more_limit
 msgid "Load More Limit"
-msgstr ""
+msgstr "Carregar mais limite"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -902,7 +915,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #, python-format
 msgid "Move"
-msgstr ""
+msgstr "Movimento"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__filter_multi_company
@@ -924,7 +937,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.cash_flow
 #, python-format
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. module: dynamic_accounts_report
 #. odoo-python
@@ -935,21 +948,21 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/wizard/trial_balance.py:0
 #, python-format
 msgid "No Accounts Found! Please Add One"
-msgstr ""
+msgstr "Nenhuma conta encontrada! Adicione uma"
 
 #. module: dynamic_accounts_report
 #. odoo-python
 #: code:addons/dynamic_accounts_report/wizard/daybook.py:0
 #, python-format
 msgid "No journals Found!"
-msgstr ""
+msgstr "Nenhum diário encontrado!"
 
 #. module: dynamic_accounts_report
 #. odoo-python
 #: code:addons/dynamic_accounts_report/wizard/general_ledger.py:0
 #, python-format
 msgid "No journals Found! Please Add One"
-msgstr ""
+msgstr "Nenhum diário encontrado! Adicione um"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -957,7 +970,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ageing
 #, python-format
 msgid "Not Due"
-msgstr ""
+msgstr "Não devido"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__only_tax_exigible
@@ -966,7 +979,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__only_tax_exigible
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__only_tax_exigible
 msgid "Only Tax Exigible Lines"
-msgstr ""
+msgstr "Apenas linhas exigíveis a impostos"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -980,7 +993,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.general_ledger
 #, python-format
 msgid "Partner"
-msgstr ""
+msgstr "Parceiro"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -990,7 +1003,7 @@ msgstr ""
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_report_ageing
 #, python-format
 msgid "Partner Ageing"
-msgstr ""
+msgstr "Vencimentos Parceiro"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -999,17 +1012,17 @@ msgstr ""
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_partner_ledger
 #, python-format
 msgid "Partner Ledger"
-msgstr ""
+msgstr "Razão do Parceiro"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ageing__partner_category_ids
 msgid "Partner Tag"
-msgstr ""
+msgstr "Marcador Parceiro"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.report,name:dynamic_accounts_report.action_print_partner_ledger
 msgid "Partner ledger"
-msgstr ""
+msgstr "Razão do Parceiro"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1017,12 +1030,12 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "Partner tag:"
-msgstr ""
+msgstr "Marcador Parceiro:"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__partner_category_ids
 msgid "Partner tags"
-msgstr ""
+msgstr "Marcadores Parceiro"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ageing__result_selection
@@ -1036,7 +1049,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__filter_partner
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_partner
 msgid "Partners"
-msgstr ""
+msgstr "Parceiros"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1044,12 +1057,15 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "Partners:"
-msgstr ""
+msgstr "Parceiros:"
 
 #. module: dynamic_accounts_report
-#: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ledger__account_type_id__liability_payable
+#. odoo-javascript
+#: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
+#: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ledger__account_type__liability_payable
+#, python-format
 msgid "Payable"
-msgstr ""
+msgstr "A pagar"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1057,7 +1073,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ageing__result_selection__supplier
 #, python-format
 msgid "Payable Accounts"
-msgstr ""
+msgstr "Contas a Pagar"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__filter_period_comparison
@@ -1066,17 +1082,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__filter_period_comparison
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_period_comparison
 msgid "Period Comparison"
-msgstr ""
+msgstr "Comparação de períodos"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ageing__period_length
 msgid "Period Length (days)"
-msgstr ""
+msgstr "Duração do período (dias)"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__dynamic_balance_sheet_report__target_move__posted
 msgid "Posted"
-msgstr ""
+msgstr "Lançado"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1089,7 +1105,7 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Posted Entries"
-msgstr ""
+msgstr "Entradas Lançadas"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1102,18 +1118,21 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Print (PDF)"
-msgstr ""
+msgstr "Imprimir (PDF)"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_dynamic_profit_and_loss
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_profit_and_loss_report
 msgid "Profit and Loss"
-msgstr ""
+msgstr "Lucros e Perdas"
 
 #. module: dynamic_accounts_report
-#: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ledger__account_type_id__asset_receivable
+#. odoo-javascript
+#: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
+#: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ledger__account_type__asset_receivable
+#, python-format
 msgid "Receivable"
-msgstr ""
+msgstr "A receber"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1121,7 +1140,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ageing__result_selection__customer
 #, python-format
 msgid "Receivable Accounts"
-msgstr ""
+msgstr "Contas a Receber"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1131,23 +1150,25 @@ msgid ""
 "Receivable and\n"
 "                            Payable Accounts"
 msgstr ""
+"Recebíveis e\n"
+"                             Contas a Pagar"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ageing__result_selection__customer_supplier
 msgid "Receivable and Payable Accounts"
-msgstr ""
+msgstr "Contas a Receber e a Pagar"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__reconciled
 msgid "Reconcile Type"
-msgstr ""
+msgstr "Tipo de Reconciliação"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "Reconciled status:"
-msgstr ""
+msgstr "Situação reconciliada:"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.general_ledger
@@ -1157,12 +1178,12 @@ msgstr ""
 #. module: dynamic_accounts_report
 #: model:ir.actions.report,name:dynamic_accounts_report.action_print_General_ledger
 msgid "Report"
-msgstr ""
+msgstr "Relatório"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__today
 msgid "Report Date"
-msgstr ""
+msgstr "Data Relatório"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__root_report_id
@@ -1171,7 +1192,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__root_report_id
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__root_report_id
 msgid "Root Report"
-msgstr ""
+msgstr "Relatório raiz"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__search_bar
@@ -1180,7 +1201,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__search_bar
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__search_bar
 msgid "Search Bar"
-msgstr ""
+msgstr "Barra Pesquisa"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__date_from
@@ -1190,7 +1211,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__date_from
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__date_from
 msgid "Start Date"
-msgstr ""
+msgstr "Data Inicial"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1202,12 +1223,12 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Start Date :"
-msgstr ""
+msgstr "Data Inicial :"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__date_from
 msgid "Start date"
-msgstr ""
+msgstr "Data Inicial"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1215,12 +1236,12 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_cash_flow__levels__summary
 #, python-format
 msgid "Summary"
-msgstr ""
+msgstr "Resumo"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__target_move
 msgid "Target Move"
-msgstr ""
+msgstr "Movimento Alvo"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1233,7 +1254,7 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Target Move:"
-msgstr ""
+msgstr "Movimento Alvo:"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__target_move
@@ -1243,7 +1264,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__target_move
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__target_move
 msgid "Target Moves"
-msgstr ""
+msgstr "Movimentos Alvo"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,help:dynamic_accounts_report.field_account_cash_flow__root_report_id
@@ -1252,12 +1273,12 @@ msgstr ""
 #: model:ir.model.fields,help:dynamic_accounts_report.field_account_partner_ledger__root_report_id
 #: model:ir.model.fields,help:dynamic_accounts_report.field_account_trial_balance__root_report_id
 msgid "The report this report is a variant of."
-msgstr ""
+msgstr "O relatório do qual este relatório é uma variante."
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_general_ledger__titles
 msgid "Title"
-msgstr ""
+msgstr "Titulo"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1276,7 +1297,7 @@ msgstr ""
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_trial_balance
 #, python-format
 msgid "Trial Balance"
-msgstr ""
+msgstr "Balancete"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__filter_unfold_all
@@ -1285,7 +1306,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__filter_unfold_all
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_unfold_all
 msgid "Unfold All"
-msgstr ""
+msgstr "Desdobrar tudo"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1296,21 +1317,21 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "Unfolded"
-msgstr ""
+msgstr "Desdobrado"
 
 #. module: dynamic_accounts_report
 #. odoo-python
 #: code:addons/dynamic_accounts_report/wizard/ageing.py:0
 #, python-format
 msgid "Unknown Partner"
-msgstr ""
+msgstr "Parceiro Desconhecido"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "Unreconciled"
-msgstr ""
+msgstr "Não Reconciliado"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__filter_unreconciled
@@ -1319,12 +1340,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__filter_unreconciled
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__filter_unreconciled
 msgid "Unreconciled Entries"
-msgstr ""
+msgstr "Entradas Não Reconciliadas"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_partner_ledger__reconciled__unreconciled
 msgid "Unreconciled Only"
-msgstr ""
+msgstr "Somente Não Reconciliadas"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_cash_flow__variant_report_ids
@@ -1333,7 +1354,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_partner_ledger__variant_report_ids
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_trial_balance__variant_report_ids
 msgid "Variants"
-msgstr ""
+msgstr "Vasriações"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1341,24 +1362,15 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_cash_flow__levels__very
 #, python-format
 msgid "Very Detailed"
-msgstr ""
+msgstr "Muito detalhado"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/financial_reports_view.xml:0
-#, python-format
-msgid ""
-"View\n"
-"                                                                            General\n"
-"                                                                            Ledger"
-msgstr ""
-
-#. module: dynamic_accounts_report
-#. odoo-javascript
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "View General Ledger"
-msgstr ""
+msgstr "Ver Razão Geral"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1368,7 +1380,7 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "View Source move"
-msgstr ""
+msgstr "Ver movimento de Origem"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_general_ledger__display_account__not_zero
@@ -1376,7 +1388,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_trial_balance__display_account__not_zero
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__dynamic_balance_sheet_report__display_account__not_zero
 msgid "With balance is not equal to 0"
-msgstr ""
+msgstr "Com saldo não é igual a 0"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_general_ledger__display_account__movement
@@ -1384,7 +1396,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__account_trial_balance__display_account__movement
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__dynamic_balance_sheet_report__display_account__movement
 msgid "With movements"
-msgstr ""
+msgstr "Com Movimentos"
 
 #. module: dynamic_accounts_report
 #: model:ir.model,name:dynamic_accounts_report.model_account_cash_flow
