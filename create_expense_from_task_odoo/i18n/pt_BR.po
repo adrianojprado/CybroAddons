@@ -1,0 +1,135 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* create_expense_from_task_odoo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-02 14:03+0000\n"
+"PO-Revision-Date: 2023-09-02 11:07-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#. module: create_expense_from_task_odoo
+#: model_terms:ir.ui.view,arch_db:create_expense_from_task_odoo.expense_wizard_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: create_expense_from_task_odoo
+#: model_terms:ir.ui.view,arch_db:create_expense_from_task_odoo.project_task_view_form
+msgid "Create Expense"
+msgstr "Criar Despesa"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard__display_name
+msgid "Display Name"
+msgstr "Nome Exibição"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard__employee_name_ids
+msgid "Employee Name"
+msgstr "Nome Funcionário"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model,name:create_expense_from_task_odoo.model_hr_expense
+#: model_terms:ir.ui.view,arch_db:create_expense_from_task_odoo.project_task_view_form
+msgid "Expense"
+msgstr "Despesa"
+
+#. module: create_expense_from_task_odoo
+#: model_terms:ir.ui.view,arch_db:create_expense_from_task_odoo.expense_wizard_view_form
+msgid "Expense Report"
+msgstr "Relatório Despesa"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model,name:create_expense_from_task_odoo.model_expense_wizard
+msgid "Expense Wizard for Creating Expense Records"
+msgstr "Assistente para Criar Registro de Despesas"
+
+#. module: create_expense_from_task_odoo
+#: model_terms:ir.ui.view,arch_db:create_expense_from_task_odoo.expense_wizard_view_form
+msgid "Generate Expense"
+msgstr "Gerar Despesa"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_hr_expense__project_id
+msgid "Project"
+msgstr "Projeto"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard__product_id
+msgid "Service Name"
+msgstr "Nome Serviço"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model,name:create_expense_from_task_odoo.model_project_task
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_hr_expense__task_id
+msgid "Task"
+msgstr "Taréfa"
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,help:create_expense_from_task_odoo.field_expense_wizard__employee_name_ids
+msgid "The employees associated with this record."
+msgstr "O funcionario associado com este registro."
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,help:create_expense_from_task_odoo.field_expense_wizard__product_id
+msgid "The product associated with the record"
+msgstr "O produto associado com este registro."
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,help:create_expense_from_task_odoo.field_hr_expense__project_id
+msgid "The project associated with this record."
+msgstr "O projeto associado com este registro."
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,help:create_expense_from_task_odoo.field_hr_expense__task_id
+msgid "The task associated with this record."
+msgstr "A taréfa associado com este registro."
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,help:create_expense_from_task_odoo.field_expense_wizard__total_amount
+msgid "The total amount for this record."
+msgstr "O Valor Total para este registro."
+
+#. module: create_expense_from_task_odoo
+#: model:ir.model.fields,field_description:create_expense_from_task_odoo.field_expense_wizard__total_amount
+msgid "Total Amount"
+msgstr "Valor Total"
