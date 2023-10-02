@@ -3,7 +3,7 @@
 #
 #    Cybrosys Technologies Pvt. Ltd.
 #
-#    Copyright (C) 2022-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
+#    Copyright (C) 2021-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
@@ -19,19 +19,15 @@
 #    If not, see <http://www.gnu.org/licenses/>.
 #
 #############################################################################
-from odoo import api, models
+"""
+This module helps user to change the backend theme of the odoo according to
+there choices
+"""
+from odoo import models, fields
 
 
-class PartnerAgeing(models.AbstractModel):
-    _name = 'report.dynamic_accounts_report.partner_ageing'
+class ResCompany(models.Model):
+    """Inherits the Res Company Model"""
+    _inherit = 'res.company'
 
-    @api.model
-    def _get_report_values(self,docids, data=None):
-        if self.env.context.get('ageing_pdf_report'):
-            if data.get('report_data'):
-                data.update(
-                    {'account_data': data.get('report_data')['report_lines'][0],
-                     'Filters': data.get('report_data')['filters'],
-                     'company': self.env.company,
-                     })
-        return data
+    background_image = fields.Binary(string="Background Image", attachment=True)
