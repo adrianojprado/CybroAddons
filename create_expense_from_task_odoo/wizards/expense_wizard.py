@@ -52,7 +52,7 @@ class ExpenseWizard(models.TransientModel):
                 'name': self._context.get('default_name'),
                 'project_id': self._context.get('default_project_id'),
                 'total_amount': self.total_amount / count,
-                'product_id': self.product_id.id,
+                'product_id': self.product_id.id
             })
             expense_ids.append(expense.id)
         return expense_ids

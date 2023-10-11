@@ -47,6 +47,7 @@ class InheritProjectTask(models.Model):
                 'default_name': self.name,
                 'default_employee_name_id': [
                     (6, 0, self.user_ids.mapped('employee_ids').ids)]
+
             },
         }
 
