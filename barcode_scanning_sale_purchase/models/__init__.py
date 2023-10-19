@@ -19,6 +19,7 @@
 #    If not, see <http://www.gnu.org/licenses/>.
 #
 #############################################################################
-
-from . import sale_order
+from . import account_move_line
 from . import purchase_order
+from . import sale_order
+from . import stock_move
