@@ -1,0 +1,187 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* statement_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-21 13:59+0000\n"
+"PO-Revision-Date: 2023-10-21 11:10-0300\n"
+"Last-Translator: Adriano <adrianojprado@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4\n"
+
+#. module: statement_report
+#: model:ir.actions.report,print_report_name:statement_report.res_partner_action
+msgid "'Statement Report- %s' %(object.name)"
+msgstr "'Extrato - %s' %(object.name)"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Amount Due"
+msgstr "Valor Devido"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_statement_report_template
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Balance"
+msgstr "Saldo"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Balance Due"
+msgstr "Saldo Devedor"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Bill Date"
+msgstr "Data Fatura"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Bill No."
+msgstr "Fatura Nº."
+
+#. module: statement_report
+#: model:ir.model,name:statement_report.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: statement_report
+#: model:ir.model.fields,field_description:statement_report.field_res_partner__currency_id
+#: model:ir.model.fields,field_description:statement_report.field_res_users__currency_id
+msgid "Currency"
+msgstr "Moeda"
+
+#. module: statement_report
+#: model:ir.model.fields,field_description:statement_report.field_res_partner__customer_report_ids
+#: model:ir.model.fields,field_description:statement_report.field_res_users__customer_report_ids
+msgid "Customer Report"
+msgstr "Relatório do Cliente"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Customer Statement"
+msgstr "Extrato Cliente"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_statement_report_template
+msgid "Date"
+msgstr "Data"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_statement_report_template
+msgid "Due Date"
+msgstr "Data de Vencimento"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Invoice Date"
+msgstr "Data Fatura"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Invoice No."
+msgstr "Fatura Nº."
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_statement_report_template
+msgid "Invoice/Bill Number"
+msgstr "Número Fatura"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_statement_report_template
+msgid "Invoices/Debit"
+msgstr "Faturas/Débito"
+
+#. module: statement_report
+#: model:ir.actions.server,name:statement_report.ir_cron_monthly_statement_report_ir_actions_server
+#: model:ir.cron,cron_name:statement_report.ir_cron_monthly_statement_report
+msgid "Monthly Statement Report"
+msgstr "Relatório de Extrato Mensal"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_statement_report_template
+msgid "Payment Statement Report"
+msgstr "Relatório de Extrato de Pagamento"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Print Excel"
+msgstr "Imprimir Exel"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Print PDF"
+msgstr "Imprimir PDF"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Sent Excel By Email"
+msgstr "Enviar Excel por E-mail"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Sent PDF By Email"
+msgstr "Enviar PDF por E-mail"
+
+#. module: statement_report
+#: model:ir.actions.report,name:statement_report.res_partner_action
+msgid "Statement Report"
+msgstr "Relatório Extrato"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Supplier Statement"
+msgstr "Extrato Fornecedor"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_view_form
+msgid "Total Amount"
+msgstr "Valor Total"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_statement_report_template
+msgid "Total Amount:"
+msgstr "Valor Total:"
+
+#. module: statement_report
+#: model_terms:ir.ui.view,arch_db:statement_report.res_partner_statement_report_template
+msgid "Total Balance:"
+msgstr "Saldo Total:"
+
+#. module: statement_report
+#: model:ir.model.fields,field_description:statement_report.field_res_partner__vendor_statement_ids
+#: model:ir.model.fields,field_description:statement_report.field_res_users__vendor_statement_ids
+msgid "Vendor Statement"
+msgstr "Extrato Fornecedor"
+
+#. module: statement_report
+#: model:ir.actions.server,name:statement_report.ir_cron_weekly_statement_report_ir_actions_server
+#: model:ir.cron,cron_name:statement_report.ir_cron_weekly_statement_report
+msgid "Weekly Statement Report"
+msgstr "Relatório de Extrato Semanal"
+
+#. module: statement_report
+#: model:ir.model.fields,help:statement_report.field_res_partner__currency_id
+#: model:ir.model.fields,help:statement_report.field_res_users__currency_id
+msgid "currency"
+msgstr "moeda"
+
+#. module: statement_report
+#: model:ir.model.fields,help:statement_report.field_res_partner__vendor_statement_ids
+#: model:ir.model.fields,help:statement_report.field_res_users__vendor_statement_ids
+msgid "partner bills"
+msgstr "contas de parceiros"
+
+#. module: statement_report
+#: model:ir.model.fields,help:statement_report.field_res_partner__customer_report_ids
+#: model:ir.model.fields,help:statement_report.field_res_users__customer_report_ids
+msgid "partner invoices"
+msgstr "faturas de parceiros"
