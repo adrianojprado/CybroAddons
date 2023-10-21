@@ -1,0 +1,98 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_purchase_previous_product_cost
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-21 12:08+0000\n"
+"PO-Revision-Date: 2023-10-21 09:15-0300\n"
+"Last-Translator: Adriano <adrianojprado@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4\n"
+
+#. module: sale_purchase_previous_product_cost
+#: model:ir.model.fields,help:sale_purchase_previous_product_cost.field_sale_order_line__sale_date
+msgid ""
+"Creation date of draft/sent orders,\n"
+"Confirmation date of confirmed orders."
+msgstr ""
+"Data de criação dos rascunhos/pedidos enviados,\n"
+"Data de confirmação dos pedidos confirmados."
+
+#. module: sale_purchase_previous_product_cost
+#: model:ir.model.fields,help:sale_purchase_previous_product_cost.field_purchase_order_line__purchase_date
+msgid ""
+"Depicts the date within which the Quotation should be confirmed and "
+"converted into a purchase order."
+msgstr ""
+"Representa a data dentro da qual a cotação deve ser confirmada e "
+"convertida em um pedido de compra."
+
+#. module: sale_purchase_previous_product_cost
+#: model_terms:ir.ui.view,arch_db:sale_purchase_previous_product_cost.product_product_ext_form_view2
+msgid "Last Prices"
+msgstr "Últimos Preços"
+
+#. module: sale_purchase_previous_product_cost
+#: model_terms:ir.ui.view,arch_db:sale_purchase_previous_product_cost.last_sale_product_prices_view
+#: model_terms:ir.ui.view,arch_db:sale_purchase_previous_product_cost.last_sale_product_purchase_prices_view
+msgid "Last Product Prices"
+msgstr "Últimos Preços Produtos"
+
+#. module: sale_purchase_previous_product_cost
+#: model:ir.model.fields,field_description:sale_purchase_previous_product_cost.field_product_product__order_partner_id
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: sale_purchase_previous_product_cost
+#: model_terms:ir.ui.view,arch_db:sale_purchase_previous_product_cost.product_product_ext_form_view2
+msgid "Previous Price History"
+msgstr "Histórico de Preços"
+
+#. module: sale_purchase_previous_product_cost
+#: model_terms:ir.ui.view,arch_db:sale_purchase_previous_product_cost.product_product_ext_form_view2
+msgid "Previous Purchase Rates"
+msgstr "Histórico Compras"
+
+#. module: sale_purchase_previous_product_cost
+#: model_terms:ir.ui.view,arch_db:sale_purchase_previous_product_cost.product_product_ext_form_view2
+msgid "Previous Sale Rates"
+msgstr "Histórico Vendas"
+
+#. module: sale_purchase_previous_product_cost
+#: model:ir.model,name:sale_purchase_previous_product_cost.model_product_product
+msgid "Product Variant"
+msgstr "Variação do Produto"
+
+#. module: sale_purchase_previous_product_cost
+#: model:ir.model.fields,field_description:sale_purchase_previous_product_cost.field_purchase_order_line__purchase_date
+msgid "Purchase Date"
+msgstr "Data Compra"
+
+#. module: sale_purchase_previous_product_cost
+#: model:ir.model,name:sale_purchase_previous_product_cost.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Linha de Pedido de Compra"
+
+#. module: sale_purchase_previous_product_cost
+#: model:ir.model.fields,field_description:sale_purchase_previous_product_cost.field_sale_order_line__sale_date
+msgid "Sale Date"
+msgstr "Data Venda"
+
+#. module: sale_purchase_previous_product_cost
+#: model_terms:ir.ui.view,arch_db:sale_purchase_previous_product_cost.view_purchase_order_line_history
+#: model_terms:ir.ui.view,arch_db:sale_purchase_previous_product_cost.view_sale_order_line_history
+msgid "Sale/Purchase History"
+msgstr "Histórico Venda/Compra"
+
+#. module: sale_purchase_previous_product_cost
+#: model:ir.model,name:sale_purchase_previous_product_cost.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Linha Pedido de Vendas"
