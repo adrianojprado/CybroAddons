@@ -1,0 +1,75 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* advanced_chatter_view
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-16 17:37+0000\n"
+"PO-Revision-Date: 2023-10-16 14:40-0300\n"
+"Last-Translator: Adriano <adrianojprado@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4\n"
+
+#. module: advanced_chatter_view
+#. odoo-javascript
+#: code:addons/advanced_chatter_view/static/src/xml/chatter_container.xml:0
+#: code:addons/advanced_chatter_view/static/src/xml/chatter_topbar.xml:0
+#, python-format
+msgid "Activities"
+msgstr "Atividades"
+
+#. module: advanced_chatter_view
+#. odoo-javascript
+#: code:addons/advanced_chatter_view/static/src/xml/chatter_topbar.xml:0
+#, python-format
+msgid "Attachment counter loading..."
+msgstr "Carregando do contador de anexos..."
+
+#. module: advanced_chatter_view
+#. odoo-javascript
+#: code:addons/advanced_chatter_view/static/src/xml/chatter_topbar.xml:0
+#, python-format
+msgid "Attachments"
+msgstr "Anexos"
+
+#. module: advanced_chatter_view
+#. odoo-javascript
+#: code:addons/advanced_chatter_view/static/src/xml/chatter_container.xml:0
+#, python-format
+msgid "Log Note"
+msgstr "Registro"
+
+#. module: advanced_chatter_view
+#. odoo-javascript
+#: code:addons/advanced_chatter_view/static/src/xml/chatter_topbar.xml:0
+#, python-format
+msgid "Log note"
+msgstr "Registro"
+
+#. module: advanced_chatter_view
+#. odoo-javascript
+#: code:addons/advanced_chatter_view/static/src/xml/chatter_container.xml:0
+#, python-format
+msgid "Message"
+msgstr "Menssagem"
+
+#. module: advanced_chatter_view
+#. odoo-javascript
+#: code:addons/advanced_chatter_view/static/src/xml/chatter_container.xml:0
+#, python-format
+msgid "Please wait..."
+msgstr "Por favor, aguarde..."
+
+#. module: advanced_chatter_view
+#. odoo-javascript
+#: code:addons/advanced_chatter_view/static/src/xml/chatter_topbar.xml:0
+#, python-format
+msgid "Send message"
+msgstr "Enviar Menssagem"
