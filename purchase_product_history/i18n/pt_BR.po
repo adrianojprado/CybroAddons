@@ -1,0 +1,231 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_product_history
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-24 12:28+0000\n"
+"PO-Revision-Date: 2023-10-24 09:34-0300\n"
+"Last-Translator: Adriano <adrianojprado@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4\n"
+
+#. module: purchase_product_history
+#: model:ir.model.fields.selection,name:purchase_product_history.selection__res_config_settings__status__all
+msgid "All"
+msgstr ""
+
+#. module: purchase_product_history
+#: model:ir.model,name:purchase_product_history.model_res_config_settings
+msgid "Config Settings"
+msgstr "Configuração"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__create_uid
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__create_date
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__description
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__description
+msgid "Description"
+msgstr "Descrição"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_product_history_line__description
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_template_history_line__description
+msgid "Description of the product"
+msgstr "Descrição do Produto"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__display_name
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__display_name
+msgid "Display Name"
+msgstr "Nome Exibição"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__id
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__id
+msgid "ID"
+msgstr ""
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line____last_update
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__write_uid
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__write_date
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__write_date
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_res_config_settings__limit
+#: model_terms:ir.ui.view,arch_db:purchase_product_history.res_config_settings_view_form_purchase
+msgid "Limit"
+msgstr "Limite"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_product_history_line__product_history_id
+msgid "Name of the product"
+msgstr "Descrição do Produto"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_template_history_line__history_id
+msgid "Name of the product variant"
+msgstr "Descrição da Variação do Produto"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__order_reference_id
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__order_reference_id
+msgid "Order"
+msgstr "Pedido"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__product_history_id
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__history_id
+msgid "Product"
+msgstr "Produto"
+
+#. module: purchase_product_history
+#: model_terms:ir.ui.view,arch_db:purchase_product_history.res_config_settings_view_form_purchase
+msgid "Product Purchase History"
+msgstr "Histórico Compra Produto"
+
+#. module: purchase_product_history
+#: model:ir.model,name:purchase_product_history.model_product_product
+msgid "Product Variant"
+msgstr "Variação do Produto"
+
+#. module: purchase_product_history
+#: model:ir.model,name:purchase_product_history.model_purchase_product_history_line
+msgid "Product history line for product"
+msgstr "Linha de histórico do produto"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_product_history_line__product_qty
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_template_history_line__product_qty
+msgid "Product quantity"
+msgstr "Quantidade"
+
+#. module: purchase_product_history
+#: model:ir.model,name:purchase_product_history.model_product_template
+msgid "Product template"
+msgstr "Produto"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_product_product__po_product_line_ids
+#: model_terms:ir.ui.view,arch_db:purchase_product_history.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:purchase_product_history.product_template_only_form_view
+msgid "Purchase History"
+msgstr "Histórico Compra"
+
+#. module: purchase_product_history
+#: model:ir.model.fields.selection,name:purchase_product_history.selection__res_config_settings__status__purchase_order
+msgid "Purchase Order"
+msgstr "Pedido de Compra"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_product_product__po_history_line_ids
+#: model:ir.model.fields,field_description:purchase_product_history.field_product_template__po_history_line_ids
+msgid "Purchase history"
+msgstr "Histórico Compra"
+
+#. module: purchase_product_history
+#: model:ir.model,name:purchase_product_history.model_purchase_template_history_line
+msgid "Purchase history line for template"
+msgstr "Linha de histórico de compras para modelo"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_product_history_line__order_reference_id
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_template_history_line__order_reference_id
+msgid "Purchase order reference of the product"
+msgstr "Referência do pedido de compra do produto"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_product_product__po_history_line_ids
+#: model:ir.model.fields,help:purchase_product_history.field_product_template__po_history_line_ids
+msgid "Purchased product details"
+msgstr "Detalhes do produto comprado"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_product_product__po_product_line_ids
+msgid "Purchased product variant details"
+msgstr "Detalhes da variante do produto comprado"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__product_qty
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__product_qty
+msgid "Quantity"
+msgstr "Quantidade"
+
+#. module: purchase_product_history
+#: model:ir.model.fields.selection,name:purchase_product_history.selection__res_config_settings__status__rfq
+msgid "RFQ"
+msgstr "RdC"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_res_config_settings__limit
+msgid "Specify the limit to show"
+msgstr "Especifique o limite para exibir"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_res_config_settings__status
+msgid "Specify the status of the purchase order"
+msgstr "Especifique o status do pedido de compra"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_res_config_settings__status
+#: model_terms:ir.ui.view,arch_db:purchase_product_history.res_config_settings_view_form_purchase
+msgid "Status"
+msgstr "Situação"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__price_subtotal
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__price_subtotal
+msgid "Subtotal"
+msgstr ""
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_product_history_line__price_subtotal
+msgid "Subtotal of the product"
+msgstr "Subtotal do produto"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_template_history_line__price_subtotal
+msgid "Subtotal of theproduct"
+msgstr "Subtotal do produto"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_product_history_line__price_unit
+#: model:ir.model.fields,field_description:purchase_product_history.field_purchase_template_history_line__price_unit
+msgid "Unit Price"
+msgstr "Preço Unitário"
+
+#. module: purchase_product_history
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_product_history_line__price_unit
+#: model:ir.model.fields,help:purchase_product_history.field_purchase_template_history_line__price_unit
+msgid "Unit price of the product"
+msgstr "Preço unitário do produto"
