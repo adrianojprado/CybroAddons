@@ -3,8 +3,8 @@
 #
 #    Cybrosys Technologies Pvt. Ltd.
 #
-#    Copyright (C) 2021-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
+#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
+#    Author: Jumana Jabin MP(<https://www.cybrosys.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -20,32 +20,30 @@
 #
 #############################################################################
 {
-    "name": "CRM Kit",
-    "version": '16.0.1.0.0',
-    "category": 'Sales',
-    'summary': """Complete CRM Kit for odoo16""",
-    'description': """Complete CRM Kit for odoo16, CRM, CRM dashboard, 
-    crm commission, commission plan, crm features""",
+    'name': 'Add Multiple Products to Inventory Transfer',
+    'version': '16.0.1.0.0',
+    'category': 'Warehouse',
+    'summary': 'Easily add multiple products to a picking directly from the'
+               ' product list view with this new feature',
+    'description': """This module allow you to add multiple products to the 
+     corresponding inventory transfer.  You can see all products in kanban,list
+     and form view.You can also view the recent transfer  history of the 
+     selected product along with the option to update the quantity, Inventory,
+     Add Multiple Products""",
     'author': 'Cybrosys Techno Solutions',
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
-    "depends": ['sale_management', 'crm', 'crm_dashboard'],
-    "data": [
+    'website': 'https://www.cybrosys.com',
+    'depends': ['stock'],
+    'data': [
         'security/ir.model.access.csv',
-        'views/commission.xml',
-        'wizard/commission_report.xml',
+        'views/stock_picking_views.xml',
+        'views/product_product_views.xml',
+        'wizard/transfer_products_details_views.xml',
     ],
-    'assets': {
-        'web.assets_backend': [
-            'crm_kit/static/src/js/action_manager.js',
-        ],
-    },
-    'images': [
-        'static/description/banner.png',
-    ],
+    'images': ['static/description/banner.jpg'],
     'license': 'LGPL-3',
     'installable': True,
-    'application': False,
     'auto_install': False,
+    'application': False,
 }

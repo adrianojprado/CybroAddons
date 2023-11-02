@@ -3,7 +3,7 @@
 #
 #    Cybrosys Technologies Pvt. Ltd.
 #
-#    Copyright (C) 2021-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
+#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
@@ -20,32 +20,32 @@
 #
 #############################################################################
 {
-    "name": "CRM Kit",
-    "version": '16.0.1.0.0',
-    "category": 'Sales',
-    'summary': """Complete CRM Kit for odoo16""",
-    'description': """Complete CRM Kit for odoo16, CRM, CRM dashboard, 
-    crm commission, commission plan, crm features""",
+    'name': 'Bag Charges in POS',
+    'version': '16.0.1.0.0',
+    'category': 'Point of Sale',
+    'summary': 'Add carry bags to point of sale orders',
+    'description': """This module gives an option to add carry bags to point of
+     sale orders.User can choose bag category for getting bag to the order.""",
     'author': 'Cybrosys Techno Solutions',
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
-    "depends": ['sale_management', 'crm', 'crm_dashboard'],
-    "data": [
-        'security/ir.model.access.csv',
-        'views/commission.xml',
-        'wizard/commission_report.xml',
+    'website': 'https://www.cybrosys.com',
+    'depends': ['base', 'point_of_sale'],
+    'data': [
+        'views/res_config_settings_views.xml',
     ],
     'assets': {
-        'web.assets_backend': [
-            'crm_kit/static/src/js/action_manager.js',
+        'point_of_sale.assets': [
+            'carry_bag_pos/static/src/js/models.js',
+            'carry_bag_pos/static/src/js/bag_charges_screen.js',
+            'carry_bag_pos/static/src/js/bag_charges_button.js',
+            'carry_bag_pos/static/src/xml/bag_charges_button_templates.xml',
+            'carry_bag_pos/static/src/xml/category_screen_templates.xml'
         ],
     },
-    'images': [
-        'static/description/banner.png',
-    ],
+    'images': ['static/description/banner.png'],
     'license': 'LGPL-3',
     'installable': True,
-    'application': False,
     'auto_install': False,
+    'application': False,
 }
