@@ -19,6 +19,7 @@
 #    If not, see <http://www.gnu.org/licenses/>.
 #
 ################################################################################
+from odoo import http
 from odoo.http import request
 from odoo.addons.website_sale.controllers.main import WebsiteSale
 
@@ -29,10 +30,8 @@ class WebsiteSaleInherit(WebsiteSale):
     def shop(self, page=0, category=None, search='', min_price=0.0,
              max_price=0.0, ppg=False, **post):
         """Method for finding log in user or not in shop page """
-        res = super(WebsiteSaleInherit, self).shop(page=0, category=None,
-                                                   search='', min_price=0.0,
-                                                   max_price=0.0, ppg=False,
-                                                   **post)
+        res = super().shop(page, category, search, min_price,
+                           max_price, ppg, **post)
         res.qcontext.update({
             'login_user': False if request.session.uid is None else True
         })
@@ -44,5 +43,7 @@ class WebsiteSaleInherit(WebsiteSale):
                                                                       category,
                                                                       search,
                                                                       **kwargs)
-        res['login_user'] = False if request.session.uid is None else True
+        res.update({
+            'login_user': False if request.session.uid is None else True
+        })
         return res
