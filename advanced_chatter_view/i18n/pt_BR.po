@@ -44,14 +44,14 @@ msgstr "Anexos"
 #: code:addons/advanced_chatter_view/static/src/xml/chatter_container.xml:0
 #, python-format
 msgid "Log Note"
-msgstr "Registro"
+msgstr "Registros"
 
 #. module: advanced_chatter_view
 #. odoo-javascript
 #: code:addons/advanced_chatter_view/static/src/xml/chatter_topbar.xml:0
 #, python-format
 msgid "Log note"
-msgstr "Registro"
+msgstr "Registro Interno"
 
 #. module: advanced_chatter_view
 #. odoo-javascript
