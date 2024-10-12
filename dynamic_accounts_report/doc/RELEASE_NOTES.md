@@ -40,3 +40,13 @@
 ### version 16.0.1.0.10,
 ### BUGFIX
 - Profit And Loss:  multiple lines of the same account in the financial reports.
+
+### 11.12.2023
+### version 16.0.1.0.11,
+### BUGFIX
+- General Ledger: Fixed the Redundancy bug 
+
+### 05.09.2024
+### version 16.0.1.0.12,
+### BUGFIX
+- Report Bug Fix: Problem with rounding issue.

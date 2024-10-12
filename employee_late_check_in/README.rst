@@ -16,7 +16,7 @@ Company
 
 License
 -------
-Affero General Public License, Version 3 (AGPL v3).
+* Affero General Public License, Version 3 (AGPL v3).
 (https://www.gnu.org/licenses/agpl-3.0-standalone.html)
 
 Credits
